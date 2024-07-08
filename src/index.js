@@ -15,6 +15,7 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
  <div>
   <Router>
+  <p> hello</p>
     <Navbar/>
     <Routes>
     <Route path="/register" element={<Register/>} />
